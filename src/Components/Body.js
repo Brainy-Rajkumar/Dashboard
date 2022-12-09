@@ -17,35 +17,27 @@ const Body = () => {
             >
               <div style={{ padding: '8px 0' }}>
                 <Row >
-                  <Col span={6} >
-                    <Card title="Default size card" extra={<a href="#">More</a>} style={{ width: 300,backgroundColor: 'yellow' }}>
+                  <Col span={6} lg={6} md={24} sm={24} xs={24} >
+                    <Card style={{backgroundColor: 'yellow' }}>
                         <p>All Earnings</p>
-                        <p>Card content</p>
-                        <p>Card content</p>
                     </Card>
                     
                   </Col>
-                  <Col span={6} >
-                    <Card title="Default size card" extra={<a href="#">More</a>} style={{ width: 300,backgroundColor: 'green' }}>
+                  <Col span={6} lg={6} md={24} sm={24} xs={24} >
+                    <Card style={{backgroundColor: 'green' }}>
                     <p>Page Views</p>
-                    <p>Card content</p>
-                    <p>Card content</p>
                     </Card>
                     
                   </Col>
-                  <Col span={6}>
-                    <Card title="Default size card" extra={<a href="#">More</a>} style={{ width: 300,backgroundColor: 'red' }}>
+                  <Col span={6} lg={6} md={24} sm={24} xs={24} >
+                    <Card style={{backgroundColor: 'red' }}>
                     <p>Task Complete</p>
-                    <p>Card content</p>
-                    <p>Card content</p>
                     </Card>
                     
                   </Col>
-                  <Col span={6}>
-                    <Card title="Default size card" extra={<a href="#">More</a>} style={{ width: 300, backgroundColor: 'blue' }}>
+                  <Col span={6} lg={6} md={24} sm={24} xs={24} >
+                    <Card style={{ backgroundColor: 'blue' }}>
                         <p>Card Doenload</p>
-                        <p>Card content</p>
-                        <p>Card content</p>
                     </Card>
                   </Col>
                 </Row>
@@ -55,17 +47,18 @@ const Body = () => {
 
                 <Row>
                   <Col span={18} style={{
-                    backgroundColor: 'red'
+                    backgroundColor: 'red',
+                    height: '300px'
                   }}>
                     col-6 col-pull-18
                   </Col>
 
                   <Col span={6} style={{
-                    backgroundColor: 'blue'
+                    backgroundColor: 'blue',
+                    height: '300px'
                   }}>
                     col-18 col-push-6
                   </Col>
-
                 </Row>
 
               </div>

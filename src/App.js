@@ -18,7 +18,7 @@ function App() {
       <Layout>
         {/* Sidebar */}
         <Sidebar />
-        {/* Header */}
+       
         <Layout>
           <Head />
 
